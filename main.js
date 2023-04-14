@@ -30,7 +30,7 @@ let am = h>=12 ? "PM" : "AM";
 
 //condição da hora am ou pm
 if (h>12){
-  h =-12;
+  h = h - 12;
 }
 h = (h<10) ? "0" + h : h;
 m = (m<10) ? "0" + m : m;
